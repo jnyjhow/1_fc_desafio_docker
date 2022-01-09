@@ -24,8 +24,8 @@ docker run --init -it --network fc_dd_net --name fc_dd_mysql jnyjhow/fc_dd_mysql
 docker run --init -it --network fc_dd_net --name fc_dd_nodejs jnyjhow/fc_dd_nodejs
 ```
 
-## rodando imagem do nginx
+## rodando imagem do nginx e definindo a porta 8080
 
 ```
-docker run --init -it --network fc_dd_net --name fc_dd_nginx jnyjhow/fc_dd_nginx
+docker run --init -it --network fc_dd_net --name fc_dd_nginx -p 8080:8080 jnyjhow/fc_dd_nginx
 ```
